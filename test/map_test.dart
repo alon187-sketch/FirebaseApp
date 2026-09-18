@@ -1,5 +1,8 @@
 import 'package:flutter_test/flutter_test.dart';
 
+// O progama realiza teste com as funções adicionar elementos em uma lista por meio da função MAP
+// Também realiza testes de busca, atualização, remoção e cálculo de soma e média por meio da função test
+
 Map<String, List<double>> alunos = {
  'Maria': [8.0, 9.0],
  'Bruna': [7.0, 7.0],
@@ -62,5 +65,5 @@ void main() {
 
    expect(medias, {'Maria': 8.5, 'Carla': 8.5, 'Elena': 8.5, 'Luiza': 8.5});
  });
- 
+
 }
